@@ -1,3 +1,5 @@
+#This is needed by [fluxgym-rocm](https://github.com/wasd-tech/fluxgym-rocm)
+
 This repository contains training, generation and utility scripts for Stable Diffusion.
 
 [__Change History__](#change-history) is moved to the bottom of the page. 
