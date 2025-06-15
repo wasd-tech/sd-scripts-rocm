@@ -1,7 +1,7 @@
 --extra-index-url https://download.pytorch.org/whl/rocm6.3
 --find-links https://repo.radeon.com/rocm/manylinux/rocm-rel-6.4.1
 
-accelerate==0.30.0
+accelerate
 transformers==4.44.0
 diffusers[torch]==0.25.0
 ftfy==6.1.1
@@ -13,7 +13,7 @@ https://github.com/wasd-tech/Guida-AMD-HIP-ROCm/releases/download/ROCm/bitsandby
 prodigyopt==1.0
 lion-pytorch==0.0.6
 tensorboard
-safetensors==0.4.2
+safetensors
 # gradio==3.16.2
 altair==4.2.2
 easygui==0.98.3
