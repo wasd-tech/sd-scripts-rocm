@@ -1,6 +1,3 @@
---extra-index-url https://download.pytorch.org/whl/rocm6.4
---find-links https://repo.radeon.com/rocm/manylinux/rocm-rel-6.4.1
-
 accelerate==0.30.0
 transformers==4.44.0
 diffusers[torch]==0.25.0
@@ -9,7 +6,7 @@ ftfy==6.1.1
 opencv-python==4.8.1.78
 einops==0.7.0
 pytorch-lightning==1.9.0
-#bitsandbytes==0.44.0
+bitsandbytes==0.44.0
 prodigyopt==1.0
 lion-pytorch==0.0.6
 tensorboard
@@ -23,15 +20,17 @@ huggingface-hub==0.24.5
 # for Image utils
 imagesize==1.4.1
 # for BLIP captioning
-requests==2.28.2
-timm==0.6.12
-fairscale==0.4.13
-for WD14 captioning (tensorflow)
-tensorflow-rocm
+# requests==2.28.2
+# timm==0.6.12
+# fairscale==0.4.13
+# for WD14 captioning (tensorflow)
+# tensorflow==2.10.1
 # for WD14 captioning (onnx)
-onnxruntime-rocm
-onnx
-
+# onnx==1.15.0
+# onnxruntime-gpu==1.17.1
+# onnxruntime==1.17.1
+# for cuda 12.1(default 11.8)
+# onnxruntime-gpu --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/
 
 # this is for onnx: 
 # protobuf==3.20.3
