@@ -1,3 +1,5 @@
+# This is needed by [fluxgym-rocm](https://github.com/wasd-tech/fluxgym-rocm)
+
 This repository contains training, generation and utility scripts for Stable Diffusion.
 
 ## FLUX.1 and SD3 training (WIP)
